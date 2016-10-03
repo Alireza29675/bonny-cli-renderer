@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Alireza29675/bonny-cli-renderer#readme",
   "devDependencies": {
+    "readline-sync": "^1.4.4",
     "renderkid": "^2.0.0"
   }
 }

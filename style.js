@@ -25,5 +25,14 @@ module.exports = {
     color: "bright-green",
     bullet: '"  ✅ "',
     margin: "0 3 1"
+  },
+  "ask": {
+    color: "yellow",
+    margin: "0 1 0",
+    marginLeft: "2"
+  },
+  "option": {
+    color: "bright-cyan",
+    marginLeft: "4"
   }
 }
