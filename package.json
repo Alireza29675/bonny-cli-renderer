@@ -1,0 +1,27 @@
+{
+  "name": "bonny-cli-renderer",
+  "version": "1.0.1",
+  "description": "Bonny CLI Renderer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alireza29675/bonny-cli-renderer.git"
+  },
+  "keywords": [
+    "bonny",
+    "cli",
+    "renderkid"
+  ],
+  "author": "Alireza Sheikholmolouki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alireza29675/bonny-cli-renderer/issues"
+  },
+  "homepage": "https://github.com/Alireza29675/bonny-cli-renderer#readme",
+  "devDependencies": {
+    "renderkid": "^2.0.0"
+  }
+}
