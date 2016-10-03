@@ -1,6 +1,6 @@
 {
   "name": "bonny-cli-renderer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Bonny CLI Renderer",
   "main": "index.js",
   "scripts": {
