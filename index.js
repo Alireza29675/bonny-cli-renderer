@@ -1,5 +1,6 @@
 const RenderKid = require('renderkid')
 const child_process = require('child_process');
+const style = require('./style.js');
 
 class CLI {
 
@@ -10,42 +11,10 @@ class CLI {
 
   initialize() {
     this.r = new RenderKid();
-    this.stylize();
+    this.r.style(style);
 
     this.execCmd = child_process.exec;
     this.spawnCmd = child_process.spawn;
-  }
-
-  stylize() {
-    this.r.style({
-      "title": {
-        display: "block",
-        margin: "1 0 1"
-      },
-      "highlight": {
-        marginRight: "1",
-        marginLeft: "1",
-        color: "bright-yellow"
-      },
-      "error": {
-        display: "block",
-        color: "black",
-        background: "red",
-        bullet: '"  ❌ "'
-      },
-      "message": {
-        display: "block",
-        color: "bright-cyan",
-        bullet: '"  👉 "',
-        margin: "0 3 1"
-      },
-      "success": {
-        display: "block",
-        color: "bright-green",
-        bullet: '"  ✅ "',
-        margin: "0 3 1"
-      }
-    });
   }
 
   exec( cmdObj, callback ) {
